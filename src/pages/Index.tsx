@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Services from '@/components/Services';
-import SpecialOffer from '@/components/SpecialOffer'; // Import the new component
+import SpecialOffer from '@/components/SpecialOffer'; // Import remains the same
 import Features from '@/components/Features';
 import Gallery from '@/components/Gallery';
 import Testimonials from '@/components/Testimonials';
@@ -27,9 +27,10 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <Hero />
+      <SpecialOffer /> {/* Moved here, right below Hero */}
       <About />
       <Services />
-      <SpecialOffer /> {/* Add the new component here */}
+      {/* SpecialOffer component removed from its previous position */}
       <Features />
       <Gallery />
       <Testimonials />
