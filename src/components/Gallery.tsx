@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Gallery, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Images, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const GallerySection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -109,7 +108,7 @@ const GallerySection = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-beauty-gold hover:bg-beauty-gold/90 text-white font-semibold py-3 px-8 rounded-full transition-all"
           >
-            <Gallery size={20} />
+            <Images size={20} />
             <span>View Full Gallery</span>
           </a>
         </div>
