@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Phone, MapPin, Clock } from 'lucide-react';
 
@@ -130,7 +129,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-beauty-dark">Address</h4>
-                  <p className="text-beauty-dark/80">123 Beauty Lane, Fashion District, Mumbai, Maharashtra 400001</p>
+                  <p className="text-beauty-dark/80">Vasmat Road Parbhani 431401, Maharastra</p>
                 </div>
               </div>
               
