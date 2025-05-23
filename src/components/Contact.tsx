@@ -157,7 +157,7 @@ const Contact = () => {
             
             <div className="rounded-lg overflow-hidden h-64 shadow-lg">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571669527!2d72.72689079730553!3d19.082177213287033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1621563698043!5m2!1sen!2sin" 
+                src="https://maps.google.com/maps?q=Vasmat%20Road%20Parbhani%20431401%2C%20Maharastra&t=&z=13&ie=UTF8&iwloc=&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
