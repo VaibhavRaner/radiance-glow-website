@@ -1,12 +1,38 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React, { useEffect } from 'react';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Services from '@/components/Services';
+import Features from '@/components/Features';
+import Gallery from '@/components/Gallery';
+import Testimonials from '@/components/Testimonials';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 const Index = () => {
+  // Update document title for SEO
+  useEffect(() => {
+    document.title = "Radiance Glow Beauty Parlour | Your Beauty Journey Begins Here";
+    
+    // Add meta description for SEO
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Radiance Glow Beauty Parlour offers premium beauty services including haircuts, styling, facials, makeup, and bridal packages in Mumbai. Book your appointment today!');
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <Hero />
+      <About />
+      <Services />
+      <Features />
+      <Gallery />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 };
