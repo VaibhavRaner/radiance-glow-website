@@ -7,35 +7,35 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 340 60% 98%;
+    --foreground: 340 25% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 340 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 340 25% 20%;
 
-    --primary: 350 100% 94%;
-    --primary-foreground: 355 30% 25%;
+    --primary: 340 65% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 43 77% 52%;
+    --secondary: 35 85% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 340 30% 96%;
+    --muted-foreground: 340 15% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 340 60% 95%;
+    --accent-foreground: 340 65% 50%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 340 30% 90%;
+    --input: 340 30% 90%;
+    --ring: 340 65% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -110,11 +110,11 @@
 }
 
 .section-title {
-  @apply font-playfair text-4xl md:text-5xl font-bold mb-3 text-beauty-dark;
+  @apply font-playfair text-4xl md:text-5xl font-bold mb-3 text-primary animate-fade-in;
 }
 
 .section-subtitle {
-  @apply text-lg md:text-xl text-beauty-dark/80 mb-12 max-w-3xl mx-auto;
+  @apply text-lg md:text-xl text-foreground/80 mb-12 max-w-3xl mx-auto animate-fade-in;
 }
 
 .whatsapp-button {
@@ -122,15 +122,15 @@
 }
 
 .service-card {
-  @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-beauty-pink/30;
+  @apply bg-card p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 border border-primary/20 hover:scale-105 hover:border-primary/40 animate-fade-in;
 }
 
 .feature-card {
-  @apply bg-beauty-light p-6 rounded-lg text-center transition-all hover:transform hover:translate-y-[-5px];
+  @apply bg-accent p-6 rounded-lg text-center transition-all duration-300 hover:transform hover:translate-y-[-8px] hover:shadow-lg animate-fade-in;
 }
 
 .testimonial-card {
-  @apply bg-white p-6 rounded-lg shadow-md;
+  @apply bg-card p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 animate-fade-in;
 }
 
 html {

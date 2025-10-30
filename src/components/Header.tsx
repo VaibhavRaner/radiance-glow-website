@@ -48,10 +48,10 @@ const Header = () => {
         <div className="flex items-center">
           <a href="#home" className="flex items-center">
             <h1 className={cn(
-              'font-playfair font-bold tracking-wide transition-all',
-              isScrolled ? 'text-2xl text-beauty-dark' : 'text-3xl text-white'
+              'font-playfair font-bold tracking-wide transition-all duration-500 animate-fade-in',
+              isScrolled ? 'text-2xl text-primary' : 'text-3xl text-white drop-shadow-lg'
             )}>
-              <span className="text-beauty-gold">Radiance</span> Glow
+              <span className="text-secondary">Glory</span> Beauty Parlour
             </h1>
           </a>
         </div>
@@ -63,8 +63,8 @@ const Header = () => {
               key={link.name}
               href={link.href}
               className={cn(
-                'font-medium transition-colors hover:text-beauty-gold',
-                isScrolled ? 'text-beauty-dark' : 'text-white'
+                'font-medium transition-all duration-300 hover:scale-110 hover:text-secondary',
+                isScrolled ? 'text-primary' : 'text-white drop-shadow-md'
               )}
             >
               {link.name}
@@ -74,7 +74,7 @@ const Header = () => {
             href="https://wa.me/919876543210?text=Hi%20Radiance%20Glow%2C%20I%27d%20like%20to%20book%20an%20appointment."
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-beauty-gold hover:bg-beauty-gold/90 text-white px-4 py-2 rounded-full transition-all"
+            className="flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white px-4 py-2 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg"
           >
             <Phone size={16} />
             <span>Book Now</span>
@@ -125,7 +125,7 @@ const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="block py-2 text-beauty-dark hover:text-beauty-gold font-medium"
+                className="block py-2 text-primary hover:text-secondary font-medium transition-all duration-300"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.name}
@@ -135,7 +135,7 @@ const Header = () => {
               href="https://wa.me/919876543210?text=Hi%20Radiance%20Glow%2C%20I%27d%20like%20to%20book%20an%20appointment."
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-beauty-gold hover:bg-beauty-gold/90 text-white px-4 py-2 rounded-full mt-3 transition-all"
+              className="flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-white px-4 py-2 rounded-full mt-3 transition-all duration-300 hover:scale-105"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <Phone size={16} />

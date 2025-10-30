@@ -14,12 +14,12 @@ import Footer from '@/components/Footer';
 const Index = () => {
   // Update document title for SEO
   useEffect(() => {
-    document.title = "Radiance Glow Beauty Parlour | Your Beauty Journey Begins Here";
+    document.title = "Glory Beauty Parlour | Your Beauty Journey Begins Here";
     
     // Add meta description for SEO
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Radiance Glow Beauty Parlour offers premium beauty services including haircuts, styling, facials, makeup, and bridal packages in Mumbai. Book your appointment today!');
+      metaDescription.setAttribute('content', 'Glory Beauty Parlour offers premium beauty services including haircuts, styling, facials, makeup, and bridal packages in Parbhani. Book your appointment today!');
     }
   }, []);
 
