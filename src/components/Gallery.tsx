@@ -103,7 +103,7 @@ const GallerySection = () => {
 
         <div className="mt-12 text-center">
           <a
-            href="https://wa.me/919876543210?text=Hi%20Radiance%20Glow%2C%20I%27d%20like%20to%20see%20more%20of%20your%20work."
+            href="https://wa.me/919876543210?text=Hi%20Glory%20Beauty%20Parlour%2C%20I%27d%20like%20to%20see%20more%20of%20your%20work."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-beauty-gold hover:bg-beauty-gold/90 text-white font-semibold py-3 px-8 rounded-full transition-all"

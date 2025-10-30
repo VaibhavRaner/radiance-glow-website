@@ -43,7 +43,7 @@ const Testimonials = () => {
     {
       name: "Priya Sharma",
       role: "Regular Client",
-      quote: "The team at Radiance Glow always delivers exceptional service. Their attention to detail and friendly atmosphere keeps me coming back!",
+      quote: "The team at Glory Beauty Parlour always delivers exceptional service. Their attention to detail and friendly atmosphere keeps me coming back!",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3"
     },
@@ -89,7 +89,7 @@ const Testimonials = () => {
           <h2 className="section-title text-center">Client Testimonials</h2>
           <div className="w-20 h-1 bg-beauty-gold mx-auto mb-6"></div>
           <p className="section-subtitle text-center">
-            Hear what our satisfied clients have to say about their experience at Radiance Glow Beauty Parlour.
+            Hear what our satisfied clients have to say about their experience at Glory Beauty Parlour.
           </p>
         </div>
 

@@ -86,7 +86,7 @@ const Services = () => {
 
         <div className="mt-12 text-center">
           <a
-            href="https://wa.me/919876543210?text=Hi%20Radiance%20Glow%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services."
+            href="https://wa.me/919876543210?text=Hi%20Glory%20Beauty%20Parlour%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-beauty-gold hover:bg-beauty-gold/90 text-white font-semibold py-3 px-8 rounded-full transition-all"

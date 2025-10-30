@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     
     // Prepare WhatsApp message
-    const message = `Hi Radiance Glow, I'd like to book an appointment.\n\nName: ${formData.name}\nService: ${formData.service}\nPreferred Time: ${formData.time}\nPhone: ${formData.phone}`;
+    const message = `Hi Glory Beauty Parlour, I'd like to book an appointment.\n\nName: ${formData.name}\nService: ${formData.service}\nPreferred Time: ${formData.time}\nPhone: ${formData.phone}`;
     
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(message);
@@ -163,7 +163,7 @@ const Contact = () => {
                 style={{ border: 0 }} 
                 allowFullScreen 
                 loading="lazy"
-                title="Radiance Glow Location"
+                title="Glory Beauty Parlour Location"
               ></iframe>
             </div>
           </div>

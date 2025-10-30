@@ -26,15 +26,15 @@ const About = () => {
               just about looking good, but feeling exceptional too.
             </p>
             <div className="flex flex-wrap gap-6">
-              <div className="text-center animate-bounce-in">
+              <div className="text-center animate-fade-in">
                 <h3 className="font-playfair text-4xl text-secondary font-bold">10+</h3>
                 <p className="text-foreground/80">Years of Experience</p>
               </div>
-              <div className="text-center animate-bounce-in" style={{ animationDelay: '0.1s' }}>
+              <div className="text-center animate-fade-in">
                 <h3 className="font-playfair text-4xl text-secondary font-bold">15k+</h3>
                 <p className="text-foreground/80">Happy Clients</p>
               </div>
-              <div className="text-center animate-bounce-in" style={{ animationDelay: '0.2s' }}>
+              <div className="text-center animate-fade-in">
                 <h3 className="font-playfair text-4xl text-secondary font-bold">25+</h3>
                 <p className="text-foreground/80">Expert Beauticians</p>
               </div>

@@ -51,7 +51,7 @@ const Features = () => {
           <h2 className="section-title text-center">Why Choose Us</h2>
           <div className="w-20 h-1 bg-beauty-gold mx-auto mb-6"></div>
           <p className="section-subtitle text-center">
-            At Radiance Glow, we are committed to excellence in everything we do. Here's what sets us apart.
+            At Glory Beauty Parlour, we are committed to excellence in everything we do. Here's what sets us apart.
           </p>
         </div>
 

@@ -26,7 +26,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/919876543210?text=Hi%20Radiance%20Glow%2C%20I%27d%20like%20to%20book%20an%20appointment."
+            href="https://wa.me/919876543210?text=Hi%20Glory%20Beauty%20Parlour%2C%20I%27d%20like%20to%20book%20an%20appointment."
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-button"
